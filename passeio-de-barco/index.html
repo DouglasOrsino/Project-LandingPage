@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Turismo em Arraial do Cabo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="showcase">
+		<header>
+			<h2 class="logo">Passeio de Barco</h2>
+			<div class="toogle"></div>
+		</header>
+
+		<video src="video/travel.mp4" muted loop autoplay></video>
+
+		<div class="overlay"></div>
+
+		<div class="text">
+			<h2>Passeio exclusivo barco táxi pescaria</h2>
+			<p><strong>
+				-Embarcação com Marinheiro;<br>
+				-Colete Salva Vidas;<br>
+				-Churrasqueira;<br>
+				EMBARCAÇÂO<br>
+				Heitor e Elen
+			</strong></p><br>
+			<h4><i class="fa-brands fa-pix"></i> Aceitamos Pix</h4>
+			<p><a href="https://www.google.com.br/maps/place/Cais+da+Praia+dos+Anjos/@-22.9703087,-42.0213117,17z/data=!4m12!1m6!3m5!1s0x97195d70e77247:0xdb3e0f5400248b0c!2sCais+da+Praia+dos+Anjos!8m2!3d-22.9703087!4d-42.019123!3m4!1s0x97195d70e77247:0xdb3e0f5400248b0c!8m2!3d-22.9703087!4d-42.019123"><i class="fa-solid fa-location-dot"></i> Pier 01 - Cais praia dos anjos, Arraial do Cabo</a></p><br>
+			<h4>Contatos</h4>
+		</div>
+
+		<ul class="social">
+			<li><a href="https://www.facebook.com/douglas.souza.370"><img src="img/facebook.png"></a></li>
+			<li><a href="https://www.instagram.com/douglas.souza.370/"><img src="img/instagram.png"></a></li>
+			<li><i class="fa-brands fa-whatsapp"></i> Douglas - (21)99523-4950<br> <i class="fa-brands fa-whatsapp"></i> Santana - (21)98394-3984</li>
+		</ul>
+
+	</section>
+
+	<div class="menu">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Destination</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+	<script>
+
+	     const hamBurger = () => {
+	     	const menuToggle = document.querySelector('.toogle');
+	     	const showcase = document.querySelector('.showcase');
+
+	     	menuToggle.addEventListener('click', () => {
+	     		menuToggle.classList.toggle('active');
+	     		showcase.classList.toggle('active');
+	     	})
+
+	     }
+
+	     hamBurger();
+
+	</script>
+	<script src="https://kit.fontawesome.com/012e82f5b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
