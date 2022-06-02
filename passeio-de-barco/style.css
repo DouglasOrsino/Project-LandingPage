@@ -188,10 +188,10 @@
 	}
 
 	.text h2 {
-		font-size: 3em;
+		display: hidden;
 	}
 
 	.text h3 {
-		display: hidden;
+		font-size: 2em;
 	}
 }
