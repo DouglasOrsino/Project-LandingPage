@@ -43,6 +43,7 @@
 }
 
 .logo {
+	display: hidden;
 	text-transform: uppercase;
 	cursor: pointer;
 }
