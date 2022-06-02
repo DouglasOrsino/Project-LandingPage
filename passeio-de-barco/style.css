@@ -10,9 +10,6 @@
 	box-sizing: border-box;
 	font-family:'Poppins', sans-serif;
 }
-h3 {
-	position: relative;
-}
 
 .showcase {
 	position: absolute;
@@ -195,6 +192,6 @@ h3 {
 	}
 
 	.text h3 {
-		font-size: 2em;
+		display: hidden;
 	}
 }
