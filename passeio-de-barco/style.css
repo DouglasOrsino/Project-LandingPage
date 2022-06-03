@@ -35,7 +35,6 @@ img {
 }
 
 .showcase header {
-	text-shadow: 0 0 4px #727679;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -104,19 +103,13 @@ img {
 }
 
 .text h3 {
-	text-shadow: 0 0 4px #727679;
 	font-size: 4em;
 	font-weight: 700;
 	line-height: 1em;
 	text-transform: uppercase;
 }
 
-.text h4 {
-	text-shadow: 0 0 3px #727679;
-}
-
 .text p {
-	text-shadow: 0 0 3px #727679;
 	font-size: 1.1em;
 	margin: 20px 0;
 	font-weight: 400;
@@ -141,7 +134,6 @@ img {
 }
 
 .social {
-	text-shadow: 0 0 3px #727679;
 	position: absolute;
 	bottom: 20px;
 	z-index: 10px;
